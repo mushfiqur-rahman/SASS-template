@@ -3,5 +3,5 @@ FROM node:alpine
 WORKDIR /app
 COPY . /app
 EXPOSE 80
-ENV NAME World
+ENV HTML 1
 CMD ["npm", "start"]
